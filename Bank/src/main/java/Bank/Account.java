@@ -18,10 +18,8 @@ public class Account {
 	    this.name = name;
 	    this.balance = balance;
 	}
-	public void deposit(double amount)
-	{
-	    balance = balance + amount;
-	}
+	
+
 	public boolean withdraw(double amount)
 	{
 		if (balance >= amount)
